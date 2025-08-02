@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(65, 164, 240);
+    
+    
+}
+.logo{
+    width: 200px;
+    padding: 5px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    
+}
+nav ul li{
+    display: inline;
+    padding: 10px 20px;
+    
+}
+nav ul li input{
+    border: 2px solid rgb(233, 218, 218);
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgb(31, 25, 25);
+    font-weight: bold;
+}
+nav ul li input:hover{
+    color: rgb(34, 91, 137);
+    transition: 0.3s;
+}
+nav ul li a{
+    border: 2px solid rgb(233, 218, 218);
+    padding: 3px 4px 3px 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(34, 91, 137);
+    transition: 0.3s;
+}
+.container2 img{
+    width: 100%;
+    height: 450px;
+}
+.container3 img{
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+}
+.container4 img{
+    width: 100%;
+    height: 500px;
+     padding-top: 50px;
+}
