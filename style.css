@@ -5,7 +5,8 @@
 }
 .container{
     background-color: rgb(65, 164, 240);
-    
+    height: 85px;
+    padding-top: 10px;
     
 }
 .logo{
@@ -17,8 +18,7 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 400px;
-    
+    justify-content: space-between;
 }
 nav ul li{
     display: inline;
@@ -32,6 +32,7 @@ nav ul li input{
     text-decoration: none;
     color: rgb(31, 25, 25);
     font-weight: bold;
+    width: 450px;
 }
 nav ul li input:hover{
     color: rgb(34, 91, 137);
@@ -118,5 +119,22 @@ nav ul li a:hover{
 footer{
     background-color: rgb(65, 164, 240);
     height: 25px;
-    align-content: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.navimgs{
+    background-color: rgb(216, 242, 233);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.navimgs img{
+    height: 70px;
+    background-color: white;
 }
